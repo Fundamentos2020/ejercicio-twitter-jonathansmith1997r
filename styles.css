@@ -83,6 +83,12 @@ body { margin: 0; }
 .d-block {display: block;}
 .d-inlineblock {display: inline-block;}
 
+.back-red
+{
+    height: 60px;
+    background-color: grey;
+}
+
 .w-25 { width: 25%; }
 .w-50 { width: 50%; }
 .w-75 { width: 75%; }
@@ -130,3 +136,18 @@ body { margin: 0; }
 
 [class*="col-"] { float: left; }
 [class*="flex-"] { display: flex; }
+
+#contenido{
+    margin-top: 10px;
+}
+.borrar-tweet,
+.borrar-tweet :hover{
+    float: right;
+    cursor: pointer;
+    color: red;
+    font-weight:bold;
+
+}
+.u-full-width {
+    width: 100%;
+    box-sizing: border-box; }
